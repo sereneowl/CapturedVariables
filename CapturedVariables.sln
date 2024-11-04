@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CapturedVariables", "CapturedVariables\CapturedVariables.csproj", "{7617988D-78DF-4F32-95CA-6FC592BC603D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmark", "Benchmark\Benchmark.csproj", "{3D325FFC-FADB-43E1-8322-B7DFB6076252}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7617988D-78DF-4F32-95CA-6FC592BC603D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7617988D-78DF-4F32-95CA-6FC592BC603D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7617988D-78DF-4F32-95CA-6FC592BC603D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7617988D-78DF-4F32-95CA-6FC592BC603D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D325FFC-FADB-43E1-8322-B7DFB6076252}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D325FFC-FADB-43E1-8322-B7DFB6076252}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D325FFC-FADB-43E1-8322-B7DFB6076252}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D325FFC-FADB-43E1-8322-B7DFB6076252}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
