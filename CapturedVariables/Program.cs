@@ -35,6 +35,7 @@ ListFilter.PrintList(shortWords);
 // string? readLine = Console.In.ReadLine();
 // if (int.TryParse(readLine, CultureInfo.InvariantCulture, out int wordLength))
 // {
+//    // Store a copy of the variable in a separate class
 //    var filterPredicate = new FilterPredicate(wordLength);
 //    IList<string> userWords;
 
@@ -42,7 +43,7 @@ ListFilter.PrintList(shortWords);
 //    ListFilter.PrintList(userWords);
 
 //    Console.WriteLine("now with 5:");
-//    // variable, not value is captured. Aka, Filter will work as expected and get 5 values
+//    // variable cannot be captured anymore
 //    wordLength = 5;
 //    userWords = ListFilter.Filter(sampleWords, filterPredicate.Match);
 //    ListFilter.PrintList(userWords);
@@ -62,7 +63,7 @@ ListFilter.PrintList(shortWords);
 // DisplayObject(actions);
 // DisplayObject(null);
 
-// public void DisplayObject(object? o)
+// void DisplayObject(object? o)
 // {
 //    if (o == null)
 //    {
